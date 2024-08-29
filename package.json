@@ -1,0 +1,25 @@
+{
+  "name": "utilities-sk",
+  "version": "0.0.1",
+  "description": "Various utilities for Signalk in one plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naugehyde/utilities-sk.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin", "signalk-category-utility"
+  ],
+  "dependencies": {
+    "nodemailer": "^4.1.0"
+  },
+  "author": "Andrew Gerngross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naugehyde/utilities-sk/issues"
+  },
+  "homepage": "https://github.com/naugehyde/utilities-sk#readme"
+}
