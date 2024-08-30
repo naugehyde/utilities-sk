@@ -17,7 +17,7 @@
                   "properties": {
                     "to": {
                       "type": "string",
-                      "description": "Recipient(s) email address"
+                      "description": "Recipient(s) email address(es"
                     },
                     "subject": {
                       "type": "string",
