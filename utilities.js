@@ -44,7 +44,7 @@ var singleton = {
  * @returns {Map} - Map of class names to classes 
  */
 
-    loadSubclasses: function(dir, ext='.js')
+    loadClasses: function(dir, ext='.js')
     {
         const classMap = new Map()
         const classFiles = fs.readdirSync(dir)
