@@ -1,5 +1,5 @@
 
-const openapi = require('./openapi.json');
+const openapi = require('./openApi.json');
 const utilities= require('./utilities.js')
 
 module.exports = (app) => {
@@ -11,7 +11,6 @@ module.exports = (app) => {
         utilities.configure(settings)
         plugin.registerWithRouter = function(router) {
             router.post('/sendmail', async (req, res) => {
-                
               const info= await utilities.sendmail(req.body)
               app.debug(info.response)
               res.json({message: info.response})
