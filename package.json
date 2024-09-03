@@ -1,6 +1,6 @@
 {
   "name": "utilities-sk",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Various utilities for Signalk in one plugin",
   "main": "index.js",
   "scripts": {
